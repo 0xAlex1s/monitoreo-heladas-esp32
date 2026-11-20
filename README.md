@@ -12,4 +12,4 @@ Aplicación web para la visualización en tiempo real de temperatura, humedad y 
 ## ✨ Funcionalidades Principales
 - Monitoreo continuo de variables meteorológicas (temperatura y humedad relativa).
 - Indicadores visuales de riesgo y alerta temprana ante descensos críticos de temperatura.
-- Historial de registros sincronizado en la nube.
+- Historial de registros sincronizado en la nube
