@@ -1,32 +1,15 @@
-# React + TypeScript + Vite
+# ❄️ Sistema de Monitoreo y Alerta Temprana de Heladas (IoT + Web)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación web para la visualización en tiempo real de temperatura, humedad y alertas climáticas provenientes de nodos **ESP32**, orientada a la prevención de heladas agrícolas en Concepción, Junín.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologías Utilizadas
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS
+- **Hardware / IoT:** Microcontrolador ESP32 + Sensores ambientales
+- **Backend / Almacenamiento:** Google Apps Script & Google Sheets
+- **Despliegue:** Vercel
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## ✨ Funcionalidades Principales
+- Monitoreo continuo de variables meteorológicas (temperatura y humedad relativa).
+- Indicadores visuales de riesgo y alerta temprana ante descensos críticos de temperatura.
+- Historial de registros sincronizado en la nube.
